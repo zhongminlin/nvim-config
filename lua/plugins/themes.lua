@@ -1,8 +1,3 @@
--- pywal colors
--- vim.cmd [[ source $HOME/.cache/wal/colors-wal.vim ]]
-vim.cmd [[ silent exec '!$HOME/.config/nvim/base16.sh' ]]
-vim.cmd [[ source $HOME/.cache/wal/base16.vim ]]
-
 return {
 	{
 		'echasnovski/mini.base16',

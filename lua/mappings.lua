@@ -4,6 +4,8 @@ local opts = { noremap = true, silent = true }
 map("n", "hs", ":split<CR>", opts)
 map("n", "vs", ":vs<CR>", opts)
 
+map("v", "<leader>p", "\"0p", opts)
+
 -- Lazy
 map('n', '<leader>l', ':Lazy<CR>', opts)
 
