@@ -17,11 +17,11 @@ vim.g.loaded_netrwPlugin = 1
 -- Example using a list of specs with the default options
 vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
 
-theme = "paradise"
+theme = "pywal"
 
 require('options')
 require('mappings')
 
 require('lazy').setup('plugins')
 
-vim.cmd[[colorscheme tokyonight]]
+-- vim.cmd[[colorscheme tokyonight]]

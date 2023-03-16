@@ -1,0 +1,18 @@
+return {
+  base00 = vim.g.color0,
+  base01 = "#1F1F1F",
+  base02 = "#2E2E2E",
+  base03 = "#424242",
+  base04 = vim.g.color8,
+  base05 = vim.g.color15,
+  base06 = vim.g.color15,
+  base07 = vim.g.color15,
+  base08 = vim.g.color1,
+  base09 = vim.g.color2,
+  base0A = vim.g.color10,
+  base0B = vim.g.color3,
+  base0C = vim.g.color6,
+  base0D = vim.g.color4,
+  base0E = vim.g.color5,
+  base0F = vim.g.color9,
+}

@@ -1,6 +1,7 @@
 {
   "barbar.nvim": { "branch": "master", "commit": "de5682f7b7de872d1bfd02aa1368cd0c34d13b49" },
-  "lazy.nvim": { "branch": "main", "commit": "623e00cabbc908f635150e73d4250cf4f241d919" },
+  "lazy.nvim": { "branch": "main", "commit": "e27c9df5fe039e9d2833ef4fcf7305595d5ccda7" },
+  "mini.base16": { "branch": "main", "commit": "f5382c0c2a4907754cdf2aefb1af790101187c7f" },
   "mini.comment": { "branch": "main", "commit": "f045998636c6fd746297220b8c692bf1e91568cb" },
   "mini.pairs": { "branch": "main", "commit": "771c08bd313614c7e9a1904d277ac76eb226f674" },
   "mini.starter": { "branch": "main", "commit": "91e30f0a5264040c408ca1369e8585e30bf5fefc" },
@@ -8,6 +9,5 @@
   "mini.surround": { "branch": "main", "commit": "b450a3aff91b4108c0e9ba9e82633d65deb5802b" },
   "nvim-colorizer.lua": { "branch": "master", "commit": "36c610a9717cc9ec426a07c8e6bf3b3abcb139d6" },
   "nvim-tree.lua": { "branch": "master", "commit": "1d79a64a88af47ddbb55f4805ab537d11d5b908e" },
-  "nvim-web-devicons": { "branch": "master", "commit": "b8d0c99578dcb9d084a45ca4b3a4a502712c2741" },
-  "tokyonight.nvim": { "branch": "main", "commit": "27203d70747094527d13575ed08f6a714e7a43f8" }
+  "nvim-web-devicons": { "branch": "master", "commit": "b8d0c99578dcb9d084a45ca4b3a4a502712c2741" }
 }

@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- extra
-opt.shell = 'powershell.exe' -- windows only
+-- opt.shell = 'powershell.exe' -- windows only
 
 -- basic
 opt.scrolloff = 3
