@@ -1,7 +1,7 @@
 return {
-	"echasnovski/mini.starter", 
-	version = false,
-	config = function()
+    "echasnovski/mini.starter",
+    version = false,
+    config = function()
         local header_art1 = [[
 ███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗
 ████╗  ██║ ██╔════╝██╔═══██╗ ██║   ██║ ██║ ████╗ ████║
