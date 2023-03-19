@@ -44,4 +44,13 @@ return {
             require('mini.statusline').setup()
 		end,
 	},
+    {
+        'echasnovski/mini.sessions',
+        version = false,
+        config = function()
+            require('mini.sessions').setup({
+                file = '',
+            })
+        end,
+    },
 }
