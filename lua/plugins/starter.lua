@@ -10,8 +10,8 @@ return {
 ██║╚██╗██║ ██╔══╝  ██║   ██║ ╚██╗ ██╔╝ ██║ ██║╚██╔╝██║
 ██║ ╚████║ ███████╗╚██████╔╝  ╚████╔╝  ██║ ██║ ╚═╝ ██║
 ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝
-    ]]
-		local header_art2 = 
+        ]]
+        local header_art2 = 
 		[[
  ██████   █████                   █████   █████  ███                  
 ░░██████ ░░███                   ░░███   ░░███  ░░░                 
@@ -56,7 +56,7 @@ return {
 =='    _-'                        N E O V I M                         \/   `==
 \   _-'                                                                `-_   /
        ]]
-        local header_art5 = [[
+       local header_art5 = [[
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡖⠁⠀⠀⠀⠀⠀⠀⠈⢲⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
 ⠀⠀⠀⠀⠀⠀⠀⠀⣼⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣧⠀⠀⠀⠀⠀⠀⠀⠀ 
@@ -97,30 +97,30 @@ return {
 ██║ ╚████║  ╚████╔╝  ██║ ██║ ╚═╝ ██║
 ╚═╝  ╚═══╝   ╚═══╝   ╚═╝ ╚═╝     ╚═╝
         ]]
-		local starter = require('mini.starter')
+        local starter = require('mini.starter')
 		starter.setup({
-			-- evaluate_single = true,
-        items = {
-            starter.sections.recent_files(5, false),
-            starter.sections.sessions(5, false),
-            starter.sections.builtin_actions(),
-        },
-		content_hooks = {
-		    function(content)
-		      local blank_content_line = { { type = 'empty', string = '' } }
-		      local section_coords = starter.content_coords(content, 'section')
-		      -- Insert backwards to not affect coordinates
-		      for i = #section_coords, 1, -1 do
-			table.insert(content, section_coords[i].line + 1, blank_content_line)
-		      end
-		      return content
-		    end,
-		    starter.gen_hook.adding_bullet("» "),
-		    starter.gen_hook.aligning('center', 'center'),
+            -- evaluate_single = true,
+            items = {
+                starter.sections.recent_files(5, false),
+                starter.sections.sessions(5, false),
+                starter.sections.builtin_actions(),
+            },
+            content_hooks = {
+                function(content)
+                    local blank_content_line = { { type = 'empty', string = '' } }
+                    local section_coords = starter.content_coords(content, 'section')
+                    -- Insert backwards to not affect coordinates
+                    for i = #section_coords, 1, -1 do
+                        table.insert(content, section_coords[i].line + 1, blank_content_line)
+                    end
+                    return content
+                end,
+                starter.gen_hook.adding_bullet("» "),
+                starter.gen_hook.aligning('center', 'center'),
 	    	},
-		header = header_art2,
-		footer = '',
-	})
-  end,
+            header = header_art2,
+            footer = '',
+        })
+    end,
 }
 
