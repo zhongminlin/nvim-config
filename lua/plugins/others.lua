@@ -44,4 +44,5 @@ return {
             require('mini.statusline').setup()
 		end,
 	},
+    'morandi-theme/morandi.nvim',
 }
