@@ -15,6 +15,7 @@ opt.cmdheight = 0
 opt.termguicolors = true
 opt.showmode = false
 opt.cul = true
+opt.autochdir = true
 
 -- timeout stuff
 opt.updatetime = 300
