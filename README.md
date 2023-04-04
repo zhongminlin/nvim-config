@@ -6,5 +6,5 @@
 - mini.nvim plugins
 - base16 colorschemes
 
-Clone this repo to deploy
+## deploy
 `git clone https://github.com/zhongminlin/nvim-config.git ~/.config/nvim`
