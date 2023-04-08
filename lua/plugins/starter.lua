@@ -100,7 +100,10 @@ return {
             -- evaluate_single = true,
             items = {
                 starter.sections.recent_files(5, false),
+                { name = 'nvim', action = 'e $MYVIMRC', section = 'Config' },
+                { name = 'lazy', action = 'Lazy', section = 'Config' },
                 starter.sections.sessions(5, false),
+                { name = 'Restore Last Session', action = [[lua require('persistence').load({last = true})]], section = "Sessions" },
                 starter.sections.builtin_actions(),
             },
             content_hooks = {
