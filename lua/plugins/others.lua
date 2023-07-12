@@ -6,9 +6,9 @@ return {
 			require('nvim-tree').setup()
 		end,
 	},
-	{ 
-		'romgrk/barbar.nvim', 
-		dependencies = 'nvim-tree/nvim-web-devicons', 
+	{
+		'romgrk/barbar.nvim',
+		dependencies = 'nvim-tree/nvim-web-devicons',
 	},
 	{
 		'norcalli/nvim-colorizer.lua',
@@ -37,11 +37,11 @@ return {
 			require('mini.surround').setup()
 		end,
 	},
-    { 
-        'echasnovski/mini.statusline', 
+	{
+	   'echasnovski/mini.statusline',
 		version = false,
 		config = function()
-            require('mini.statusline').setup()
+	           require('mini.statusline').setup()
 		end,
 	},
     'morandi-theme/morandi.nvim',
