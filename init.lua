@@ -17,11 +17,11 @@ vim.g.loaded_netrwPlugin = 1
 -- Example using a list of specs with the default options
 vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
 
-theme = "morandi"
+-- theme = "morandi"
 
 require('options')
 require('mappings')
 
 require('lazy').setup('plugins')
 
--- vim.cmd[[colorscheme tokyonight]]
+vim.cmd[[colorscheme tokyonight]]

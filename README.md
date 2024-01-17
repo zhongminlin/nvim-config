@@ -7,4 +7,4 @@
 - base16 colorschemes
 
 ## deploy
-`git clone https://github.com/zhongminlin/nvim-config.git ~/.config/nvim`
+`git clone https://github.com/zhongminlin/nvim-config.git $env:LOCALAPPDATA\nvim`
