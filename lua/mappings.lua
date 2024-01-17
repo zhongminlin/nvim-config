@@ -4,6 +4,15 @@ local opts = { noremap = true, silent = true }
 map("n", "hs", ":split<CR>", opts)
 map("n", "vs", ":vs<CR>", opts)
 
+-- yank, cut, and paste to system clipboard
+map('v', '<leader>y', '"+y', opts) -- yank motion
+map('n', '<leader>Y', '"+Y', opts) -- yank line
+map('v', '<leader>d', '"+d', opts) -- delete/cut motion
+map('n', '<leader>D', '"+D', opts) -- cut line
+map('n', '<leader>p', '"+p', opts) -- paste after cursor
+map('n', '<leader>P', '"+P', opts) -- paste before cursor
+map('v', '<leader>p', '"0p', opts) -- paste to selection
+
 -- Lazy
 map('n', '<leader>l', ':Lazy<CR>', opts)
 

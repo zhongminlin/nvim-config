@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- extra
-opt.shell = 'powershell.exe' -- windows only
+-- opt.shell = 'powershell.exe' -- windows only
 
 -- basic
 opt.scrolloff = 3
@@ -15,6 +15,7 @@ opt.cmdheight = 0
 opt.termguicolors = true
 opt.showmode = false
 opt.cul = true
+opt.autochdir = true
 
 -- timeout stuff
 opt.updatetime = 300
