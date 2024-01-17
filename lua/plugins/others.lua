@@ -69,7 +69,7 @@ return {
                 {
                     ensure_installed = { "bash", "lua", "vim", "python", "javascript", "html" },
                     highlight = { enable = true },
-                    indent = { enable = true},
+                    indent = { enable = true },
                 }
             )    
         end,
